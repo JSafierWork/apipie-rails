@@ -85,7 +85,7 @@ module Apipie
       end
 
       def validate(value)
-        return false if value.nil?
+        return false if value.blank?
         value.is_a? @type
       end
 
